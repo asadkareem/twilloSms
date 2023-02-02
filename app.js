@@ -10,7 +10,7 @@ const sendMessage = async (options) => {
   // 2) Define the email options
   const messageOptions = {
     body: options.message,
-    from: "DevonMobile",
+    from: "DMMobile",
     to: options.contactNumber,
     // html:
   };
